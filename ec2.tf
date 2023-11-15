@@ -1,4 +1,5 @@
 # Module to create a ec2 linux instance
+# adding a comment for testing
 locals {
   user_data_script_path = format("${path.cwd}/%s", var.user_data)
 }
